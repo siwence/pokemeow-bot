@@ -69,7 +69,7 @@ def catch(extracted_text):
         if rarity in extracted_text:
             print(message)
             pyautogui.click(position)
-
+    
 if __name__ == "__main__":
     main()
     
